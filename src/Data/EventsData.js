@@ -1,0 +1,22 @@
+export const Technical = [
+    {
+        Name:"Hackathon",
+        img:"hackathon.jpg"
+    },
+    {
+        Name:"Hackathon",
+        img:"hackathon.jpg"
+    },
+    {
+        Name:"Hackathon",
+        img:"hackathon.jpg"
+    },
+    {
+        Name:"Hackathon",
+        img:"hackathon.jpg"
+    },
+    {
+        Name:'Hackathon',
+        img:"hackathon.jpg"
+    }
+]
