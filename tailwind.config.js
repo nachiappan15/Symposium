@@ -6,10 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        logo1:"#41d7f8",
-        logo2:"#2b2d42",
-        nav_op: "#B6EB7A",
-        card:"#182747"
+        background1:"#16161a",
+        background2:"#242629", 
+        headline:"#fffffe",
+        paragraph: "#94a1b2",
+        button:"#7f5af0",
+        card:"#16161a",
+        highlight: "#7f5af0",
+        selected: "#2cb67d"
       }
     },
   },
