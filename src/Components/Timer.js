@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 
 const Timer = () => {
+
   const calculateTimeLeft = () => {
     const difference = +new Date("2022-11-05T01:00:00+05:30") - +new Date();
     let timeLeft = {};
@@ -19,8 +20,10 @@ const Timer = () => {
 
   };
 
+  // state management
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
+  // useeffect
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
@@ -29,20 +32,12 @@ const Timer = () => {
 
   return (
     <div className="h-24 w-full  lg:h-32  lg:w-2/4 flex items-center justify-center gap-3 lg:gap-4 mt-5  ">
+
       <div className='h-full w-1/5 lg:w-2/5 flex items-center justify-center text-paragraph  lg:text-3xl flex-col '> <span className='   module lg:px-4 lg:py-2 rounded-md text-paragraph text-xl lg:text-6xl '>{timeLeft.days}</span>DAYS</div>
       <div className='h-full w-1/5 lg:w-2/5 flex items-center justify-center text-paragraph  lg:text-3xl flex-col '> <span className='module lg:px-4 lg:py-2 rounded-md text-paragraph text-xl lg:text-6xl '>{timeLeft.hours}</span>HOURS</div>
       <div className='h-full w-1/5 lg:w-2/5 flex items-center justify-center text-paragraph  lg:text-3xl flex-col '> <span className='module lg:px-4 lg:py-2 rounded-md text-paragraph text-xl lg:text-6xl '>{timeLeft.minutes}</span>MINUTES</div>
       <div className='h-full w-1/5 lg:w-2/5 flex items-center justify-center text-paragraph  lg:text-3xl flex-col '> <span className='module lg:px-4 lg:py-2 rounded-md text-paragraph text-xl lg:text-6xl '>{timeLeft.seconds}</span>SECONDS</div>
-        {/* <span>:</span>
-              <div className='h-full bg-white w-2/5'><span></span></div>
-      <div className='h-full bg-white w-2/5'><span></span></div>
-      <div className='h-full bg-white w-2/5'><span>{timeLeft.minutes}</span></div>  
-        
-        <span>:</span>
-        
-        <span>:</span>
-         */}
-      
+
     </div>
   )
 }

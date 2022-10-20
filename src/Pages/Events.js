@@ -1,29 +1,35 @@
 import React from "react";
-import { Technical , NonTechnical } from "../../Data/EventsData";
-import EventCard from "../EventCard";
+
+// Data
+import EventsData from "../Data/EventsData";
+// Components
+import EventCard from "../Components/EventCard";
 
 const Events = () => {
   return (
     <>
 
       <div className=" grow py-5 lg:py-10 w-full flex flex-col  lg:px-20 px-8  ">
+
         <div className="">
           <h1 className="text-center text-2xl lg:text-5xl font-bold text-white underline">EVENTS</h1>
-          <p className="text-center mt-1 text-sm lg:text-lg font-semibold text-paragraph">
+          <p className='text-center text-xs lg:text-base font-semibold text-paragraph mb-3 lg:mb-6'>
             Choose the event you want to participate
           </p>
-
         </div>
 
         <h1 className=" text-xl lg:text-3xl font-semibold lg:mb-10 mb-4  text-headline">Technical Events</h1>
         <div className="  w-full grid  lg:grid-cols-4 lg:gap-8 gap-3">
           {/* Event Card */}
-          {Technical.map((i) => {
-            return (
-              <>
-                <EventCard {...i} />
-              </>
-            );
+          {EventsData.map((i) => {
+            if (i.type == "technical") {
+              return (
+                <>
+                  <EventCard {...i} />
+                </>
+              );
+            }
+
           })}
         </div>
 
@@ -31,15 +37,18 @@ const Events = () => {
         <h1 className="text-xl lg:text-3xl font-semibold lg:mb-10 my-4  text-headline">Non Technical Events</h1>
         <div className="  w-full grid  lg:grid-cols-4 gap-4 lg:gap-8">
           {/* Event Card */}
-          {NonTechnical.map((i) => {
-            return (
-              <>
-                <EventCard {...i} />
-              </>
-            );
+          {EventsData.map((i) => {
+            if (i.type == "nontechnical") {
+              return (
+                <>
+                  <EventCard {...i} />
+                </>
+              );
+            }
+
           })}
         </div>
-
+        
       </div>
     </>
   );

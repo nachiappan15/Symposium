@@ -1,63 +1,59 @@
 import './App.css';
 import React, { useCallback } from 'react';
-import Body from './Components/Body';
-import Footer from './Components/Footer';
-import Navbar from './Components/Navbar';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  Outlet,
-} from "react-router-dom";
-import Register from './Components/Pages/Register';
-import Contact from './Components/Pages/Contact';
-import Events from './Components/Pages/Events';
-import Home from './Components/Pages/Home';
-import EventsAbout from './Components/Pages/EventsAbout';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./config/particlesjs-config.json";
 
+// components
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import ScrollToTop from './Components/ScrollToTop ';
+
+
+// Pages
+import Register from './Pages/Register';
+import Contact from './Pages/Contact';
+import Events from './Pages/Events';
+import Home from './Pages/Home';
+import EventsAbout from './Pages/EventsAbout';
+// import ScrollToTop from './Components/ScrollToTop '; 
+
+
+
 
 function App() {
-
 
   const particlesInit = useCallback(main => {
     loadFull(main);
   }, [])
+
   return (<>
-    <div className="App   flex flex-col w-full min-h-screen bg-background2 " >
+    <div className="App   flex flex-col    w-full min-h-screen bg-background2 " >
 
+      <div className='h-full w-full flex  flex-col flex-auto  zindex '>
 
-      <div className='h-full w-full zindex '>
         <BrowserRouter>
           {/* navbar */}
           <Navbar />
 
           {/* body */}
+          <ScrollToTop >
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="register" element={<Register />} />
+              <Route path="contact" element={<Contact />} />
+              <Route exact path="events" element={<Events />} />
+              <Route path="/events/about/:id" element={<EventsAbout />} />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="register" element={<Register />} />
-            <Route path="contact" element={<Contact />} />
-            <Route exact path="events" element={<Events />} />
-            <Route path="/events/about/:id" element={<EventsAbout />} />
-
-          </Routes>
+            </Routes>
+          </ScrollToTop >
         </BrowserRouter>
 
       </div>
-
-
-
-
-      {/* <ParticlesBackground /> */}
-
-      {/* <Footer/> */}
     </div>
+    
     <Particles options={particlesOptions} init={particlesInit} />
-
   </>
 
   );

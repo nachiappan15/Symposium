@@ -9,11 +9,14 @@
             #2cb67d,
             #7f5af0) 1 100%;
 }
-
+/* 
 .navstick {
     position: sticky;
-    top: 0px;
-}
+    overflow: hidden;
+    top: 0;
+    z-index: 110;
+   
+} */
 
 #tsparticles {
     position: absolute;
@@ -23,10 +26,21 @@
     right: 0;
     padding: 0;
     margin: 0;
-    z-index: 10; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+    z-index: 10;
+    /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
 }
 
 
-.zindex{
+.zindex {
     z-index: 100;
+}
+
+.glassbg {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+    border-radius: 20px;
 }
