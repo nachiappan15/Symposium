@@ -1,21 +1,29 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useParams, Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 
 // Data
 import EventsData from '../Data/EventsData'
-import hackathon from "../images/hackathon.jpg"
-import coding from "../images/coding.jpeg"
-import pcgaming from "../images/pcgaming.jpg"
-import sharktank from "../images/sharktank.png"
-import workshop from "../images/workshop.jpeg"
-import quizmovieimg from "../images/quizmovie.jpg"
-import quizanime from "../images/quizanime.png"
-import musicfest from "../images/musicfest.png"
-import paperpresentation from "../images/paperpresentation.jpeg"
-import murdermystery from "../images/murdermystery.png"
-import adzap from "../images/adzap.png"
-import screwit from "../images/screwit.jpeg"
-import meme from "../images/meme.jpeg"
+
+// images
+import sharktank from "../images/sharktank.png"//sharktank
+import hackathon from "../images/hackathon.jpg"//hackathon
+import screwit from "../images/screwit.jpeg"//screwit
+import paperpresentation from "../images/paperpresentation.jpeg"//paper presentation
+import techon from "../images/techon.png"//techon
+import coding from "../images/coding.jpeg"// coding and Debugging
+import workshop from "../images/workshop.jpeg"//Workshop
+
+import musicfest from "../images/musicfest.png"//music fest
+import pcgaming from "../images/pcgaming.jpg"//pc gaming
+import quizmovieimg from "../images/quizmovie.jpg"//Movie Quiz
+import meme from "../images/meme.jpeg"//MEME
+import quizanime from "../images/quizanime.png" //Quiz anime
+import adzap from "../images/adzap.png"//adzap
+import murdermystery from "../images/murdermystery.png"//Murder Mystery
+
+
 
 // Components
 import GlassBg from '../Components/GlassBg';
@@ -23,76 +31,89 @@ import GlassBg from '../Components/GlassBg';
 const EventsAbout = () => {
 
     // images
-    const images={
-        sharktank:sharktank,
-        hackathon:hackathon,
-        screwit:screwit,
-        paperpresentation:paperpresentation,
-        techons:hackathon,
-        coding:coding,
-        workshop:workshop,
-        musicfest:musicfest,
-        pcgaming:pcgaming,
-        quizmovie:quizmovieimg,
-        memetic:meme,
-        quizanime:quizanime,
-        adzap:adzap,
-        murdermystery:murdermystery ,
+    const images = {
+        sharktank: sharktank,
+        hackathon: hackathon,
+        screwit: screwit,
+        paperpresentation: paperpresentation,
+        techons: techon,
+        coding: coding,
+        workshop: workshop,
+
+        musicfest: musicfest,
+        pcgaming: pcgaming,
+        quizmovie: quizmovieimg,
+        memetic: meme,
+        quizanime: quizanime,
+        adzap: adzap,
+        murdermystery: murdermystery,
 
 
     }
 
-    
+
     let { id } = useParams();
     var event = {}
 
     EventsData.map(i => {
-        if (i.route == id) {
+        if (i.route === id) {
             event = { ...i }
         }
+        return 0
     })
 
     return (
-        <div className='w-full h-min-full grow p-4 lg:px-20 lg:py-6 '>
-            <div className='h-full w-full   flex flex-col  justify-center items-center'>
+        <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}} className='w-full h-min-full grow  lg:px-20 lg:py-6 '>
+            <div className='h-full w-full  flex flex-col p-4 justify-center '>
 
                 <h1 className='text-xl lg:text-3xl font-semibold underline text-headline text-center mb-2'>{event.Name}</h1>
-                <div className=' flex-col flex lg:flex-row-reverse lg:gap-4 gap-2'>
-                    <div className='lg:w-2/5 p-2 rounded-lg overflow-hidden'>
-                        <img src={`${images[event.route]}`} className='rounded-lg'/>
-                        
+                <div className=' flex-col flex lg:flex-row-reverse lg:gap-4 gap-2 p-2'>
+                    <div className='  lg:w-2/5 p-2 rounded-lg overflow-hidden'>
+                        <img src={`${images[event.route]}`} className=' rounded-lg'  alt= ""/>
+
                     </div>
-                    <div className='lg:w-1/2  flex justify-center flex-col  p-2 relative'>
+                    <div className='lg:w-1/2 w-full  flex items-center justify-center flex-col p-2  relative'>
                         <GlassBg />
                         {/* <h1 className='text-xl font-semibold text-highlight  flex-none ml-2 '>What is {event.Name}   </h1> */}
-                        <p className='text-paragraph font-semibold mt-1 ml-4 text-sm lg:text-base  '>
+                        <p className='text-paragraph font-semibold mt-1  text-sm lg:text-base  '>
                             {event.descrp.map(i => { return <p >{i}</p> })}
-                            {event.addinfo && <p className='grad_text font-bold mt-4'>{`(`}{event.addinfo}{`)`}</p>}
+                            { event.addinfo!= [``] && 
+                            event.addinfo.map(i=>{return <p className='grad_text font-bold mt-4'>{i}</p>} )}
                         </p>
                     </div>
                 </div>
 
-                <div className='lg:w-2/3 mt-4  relative p-4 flex gap-4 items-center '>
+                {event.timing && <div className='lg:w-2/3 mx-auto flex items-center justify-center lg:items-start mt-4 flex-col p-2  relative  '>
                     <GlassBg />
-                    <h1 className='text-base font-semibold text-highlight  flex-none ml-2 '>Event Start Time</h1>
-                    { event.timing && <p className='text-paragraph font-semibold mt-1 ml-4 text-sm lg:text-base '>{event.timing}</p>}
-
-                </div>
-
-                {event.rules &&
-                <div className='lg:w-2/3 mt-4  relative p-2 '>
-                    <GlassBg />
-                    <h1 className='text-xl font-semibold text-highlight  flex-none ml-2 '>Rules and Regulations</h1>
-                       <p className='text-paragraph font-semibold mt-1 ml-4 text-sm lg:text-base '>{event.rules.map(i => {
-                        return <p >{i}</p>
-                    })}</p>
+                    <h1 className='text-base font-semibold text-highlight  lg:ml-2'>Event Timings</h1>
+                    {event.timing.map(i => {
+                        return <p className='text-paragraph font-semibold mt-1  text-sm lg:text-base lg:ml-4'>{i}</p>
+                    })}
 
                 </div>}
 
-                <div className='lg:w-1/2  text-sm mt-4 flex flex-col p-2 relative'>
+                {event.rules &&
+                    <div className='lg:w-2/3 mx-auto flex items-center justify-center lg:items-start mt-4 flex-col p-2  relative  '>
+                        <GlassBg />
+                        <h1 className='text-xl font-semibold text-highlight  flex-none lg:ml-2 '>Rules and Regulations</h1>
+                        <p className='text-paragraph font-semibold mt-1  text-sm lg:text-base lg:ml-4 '>{event.rules.map(i => {
+                            return <p >{i}</p>
+                        })}</p>
+
+                    </div>}
+                <div className='flex items-center justify-center mt-2'>
+                    <Link to="/register"><button className="text-white bg-gray-900 p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Register Now</button></Link>
+
+
+                </div>
+
+                <div className=' lg:w-2/3 mx-auto flex items-center justify-center lg:items-start mt-4 flex-col p-2  relative '>
                     <GlassBg />
-                    <h1 className='text-base  font-bold text-selected ml-2'>Event Co-ordinators</h1>
-                    <div className='flex flex-col gap-1 text-paragraph font-semibold ml-4'>
+                    <h1 className='text-base  font-bold text-selected lg:ml-2'>Event Co-ordinators</h1>
+                    <div className='flex flex-col gap-1 text-paragraph font-semibold lg:ml-4'>
                         {
                             event.phone.map(i => {
                                 return <div className='flex gap-6'>
@@ -107,13 +128,9 @@ const EventsAbout = () => {
 
 
                 </div>
-                <div className='flex items-center justify-center mt-2'>
-                    <Link to="/register"><button className="text-white bg-gray-900 p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Register Now</button></Link>
 
-
-                </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -3,10 +3,15 @@ import Timer from "../Components/Timer";
 import ozmenta from "../images/ozmenta.png"
 
 import { Link} from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className=" grow flex flex-auto flex-col lg:gap-8 gap-10 items-center    py-20  lg:py-5">
+    <motion.div
+        initial={{opacity:0}}
+        animate={{opacity:1}}
+        exit={{opacity:0}}
+    className=" grow flex flex-auto flex-col lg:gap-8 gap-10 items-center    py-20  lg:py-5">
       <div className="flex items-center flex-col justify-center gap-2 text-center">
         <span className="text-sm lg:text-3xl font-semibold text-headline">
           Department of Computer Science and Engineering
@@ -15,7 +20,7 @@ const Home = () => {
         {/* <span className=" text-5xl lg:text-8xl font-bold grad_text mt-3">
           OZMENTA ` 22
         </span> */}
-        <img src={ozmenta} className="lg:w-2/3 "/>
+        <img src={ozmenta} className="lg:w-2/3 " alt=""/>
 
       </div>
       <Timer />
@@ -25,7 +30,7 @@ const Home = () => {
       </div>
 
 
-    </div>
+    </motion.div>
   );
 };
 

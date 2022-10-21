@@ -6,7 +6,6 @@ import { loadFull } from "tsparticles";
 import particlesOptions from "./config/particlesjs-config.json";
 
 // components
-import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import ScrollToTop from './Components/ScrollToTop ';
 
@@ -29,9 +28,9 @@ function App() {
   }, [])
 
   return (<>
-    <div className="App   flex flex-col    w-full min-h-screen bg-background2 " >
+    <div className="App flex flex-auto w-full min-h-screen bg-background2 " >
 
-      <div className='h-full w-full flex  flex-col flex-auto  zindex '>
+      <div className='h-full flex-auto grow w-full  zindex '>
 
         <BrowserRouter>
           {/* navbar */}

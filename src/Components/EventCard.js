@@ -12,7 +12,7 @@ const EventCard = ({ Name, quote, route }) => {
   }
 
   return (
-    <div className=" min-h-[8rem] bg-card hover:scale-110 text-paragraph rounded-xl gap-4 py-4 px-3   flex flex-col items-center justify-center cursor-pointer" onClick={clicking}>
+    <div className=" min-h-[8rem] bg-card hover:scale-110 text-center text-paragraph rounded-xl gap-4 py-4 px-3   flex flex-col items-center justify-center cursor-pointer" onClick={clicking}>
 
       <h1 className="font-semibold grad_text ">{Name}</h1>
       <span className={`text-paragraph text-sm flex-col items-center gap-2 text-center  ${click ? `flex` : `hidden`}`} >

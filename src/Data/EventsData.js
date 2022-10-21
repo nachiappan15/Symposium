@@ -1,7 +1,6 @@
-import hackathon from "../images/hackathon.jpg"
-
 
 const EventsData = [
+    // Shark Tank ✅
     {
         type: "technical",
         Name: "SHARK TANK ",
@@ -10,7 +9,7 @@ const EventsData = [
         descrp: [`This is the right place to unfold your inventions in front of sharks and get the opportunity to win funding up to 15 lakhs. The event has three different categories. The first category is The Best Project, in which candidates can present their inventions and the best invention will be awarded. `,
             `The second category is the best Innovative idea in which candidates can bring up their proposals, and the best idea will be rewarded, and the third category is called Special Implementation. Candidates can bring up their innovative ideas based on the problem statement. The best proposals will get funding of up to INR 15 lacs. Participants can pose their inventions in any domain.`],
 
-        addinfo: ``,
+        addinfo: [`Innovative Idea --> ₹1000 `,` Best Project --> ₹1500` , `Special Implementation --> College Sponsor upto (₹15 Lakhs)`],
         rules: ["1.	Team members 1-3",
             "2.	Time limit 5-10 mins",
             "3.	There are 2 rounds first is the prelims (elimination round) and the second is the final round.",
@@ -35,13 +34,23 @@ const EventsData = [
                 phoneNumber: "+91 8072601169"
             },
             {
-                Name: "Ajay Saran",
-                phoneNumber: "+91 7538810307"
+                Name: "Rebecca Sheila Doss",
+                phoneNumber: "+91 9361823424"
+            },
+            {
+                Name: "Janardhanee",
+                phoneNumber: "+91 7305324040"
+            },
+            {
+                Name: "Shreenath",
+                phoneNumber: "+91 9159784023"
             }
         ],
-        timing: "10:00 AM"
+        timing: [" Starts By 10:00 AM"]
 
     },
+
+    // Hackathon ✅
     {
         type: "technical",
         Name: "HACKATHON",
@@ -49,7 +58,7 @@ const EventsData = [
         quote: "Design. Develop. Deliver",
         descrp: [`5 hours, nerve-wracking problem statements and an environment full of code and logic, a hackathon will provide a platform for the participants to make a website, android app, or a AI/ML software is limited period based on a problem related to real life`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	2-4 members per team",
             "2.	Participants can choose any one from the given topic",
             "3.	A Time limit of 5 hours will be provided.",
@@ -62,6 +71,10 @@ const EventsData = [
                 phoneNumber: "+91 6385590977"
             },
             {
+                Name: "Meenakshi",
+                phoneNumber: "+91 9840732837"
+            },
+            {
                 Name: "Yashwanth",
                 phoneNumber: "+91 8883733869"
             },
@@ -70,17 +83,19 @@ const EventsData = [
                 phoneNumber: "+91 9840934008"
             },
         ],
-        timing: "10:00 AM"
+        timing: [" Starts By 10:00 AM"]
 
     },
+
+    // Screw It✅
     {
         type: "technical",
         Name: "SCREW IT",
         route: "screwit",
         quote: "Your Pc is asleep, wake it up!",
-        descrp: [`                     There is only one round in this event, only individual participation is allowed. All the PC parts will be given, the participants have to assemble the parts. There is no time limit, when a particular participant has completed assembling, he/she can notify it to the coordinator and time will be recorded and the coordinators will check whether the PC starts or not, but others need not to stop assembling. Finally Top 2 person who assemble PC in working condition in a short period compared to other participants will be announced as winner and runner respectively.`],
+        descrp: [`There is only one round in this event, only individual participation is allowed. All the PC parts will be given, the participants have to assemble the parts. There is no time limit, when a particular participant has completed assembling, he/she can notify it to the coordinator and time will be recorded and the coordinators will check whether the PC starts or not, but others need not to stop assembling. Finally Top 2 person who assemble PC in working condition in a short period compared to other participants will be announced as winner and runner respectively.`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	Must have a fundamental knowledge of hardware.",
             "2.	Be careful while handling components.",
             "3.	Use the right tools for the job.",
@@ -91,21 +106,27 @@ const EventsData = [
         ],
         phone: [
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Elavarasan",
+                phoneNumber: "+91 7338938294"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Ilakkiya",
+                phoneNumber: "+91 9361615799"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Jegadeesh",
+                phoneNumber: "+91 8925626748"
+            },
+            {
+                Name: "Divya",
+                phoneNumber: "+91 8015167450"
             },
         ],
-        timing: "11:00 AM"
+        timing: ["11:00 AM to 1:00 PM"]
 
     },
+
+    // Paper Presentation ✅
     {
         type: "technical",
         Name: "PAPER PRESENTATION",
@@ -114,7 +135,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
@@ -124,21 +145,27 @@ const EventsData = [
         ],
         phone: [
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Yuvashreeame",
+                phoneNumber: "+91 8248135591"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Jayalakshmi",
+                phoneNumber: "+91 9384562834"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Marisakthi",
+                phoneNumber: ""
+            },
+            {
+                Name: "Archana",
+                phoneNumber: "+91 9790396988"
             },
         ],
-        timing: "10:00 AM"
+        timing: ["Starts By 10:00 AM"]
 
     },
+
+    // Techons ✅
     {
         type: "technical",
         Name: 'TECHONS',
@@ -146,7 +173,7 @@ const EventsData = [
         quote: "Be a game changer, The world is already full of players",
         descrp: [`A Techon game is a type of abstract strategy game in which players attempt to complete a specific type of connection with the given picture pieces.It is a technical fun game which develops the interaction of all the members in the team.Techon is a game where you can get fame`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	Maximum of three members in a team",
             "2.	Bring your college ID and stationery  (mandatory)",
             "3.	Electronic gadgets are not allowed during the events",
@@ -154,22 +181,28 @@ const EventsData = [
             "5.	Don’t indulge in malpractice."],
         phone: [
             {
-                Name: "Praveen kumar",
+                Name: "Mahalakshmi",
+                phoneNumber: "+91 9150468679"
+            },
+            {
+                Name: "Pavithra",
+                phoneNumber: "+91 7339570887"
+            },
+            {
+                Name: "Shyam Sundar",
+                phoneNumber: "+91 9360507326"
+            },
+            {
+                Name: "Praveen Kumar",
                 phoneNumber: "+91 9361874453"
             },
-            {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
-            },
-            {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
-            },
         ],
-        timing: "10:00 AM"
+        timing: [`Prelims => Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,  ` Finale => 1:00 PM-2:00 PM`]
 
 
     },
+
+    // Coding & Debugging ✅
     {
         type: "technical",
         Name: 'CODING & DEBUGGING',
@@ -193,7 +226,7 @@ const EventsData = [
                 will receive rewards. 
                 `],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1. Smart watches and mobile phones are not permitted to be used within the hall.",
             "2. Participants are required to participate individually, and conversation with others is not permitted while taking the tests.",
             "3. Switching between the tabs is prohibited during round 2.",
@@ -218,25 +251,42 @@ const EventsData = [
                 phoneNumber: "+91 9384940452)"
             },
         ],
-        timing: "10:00 AM"
+        timing: [`Prelims => Slot 1 -> 10:00 AM-11:00 AM , Slot 2 -> 11:00 AM-12:00 PM`,  ` Finale => 2:00 PM-3:00 PM`]
 
     },
+
+    // Workshop
     {
         type: "technical",
         Name: 'WORKSHOP',
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
         descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming, Drone technology, Cloud computing, Blockchain, and Web3 technology. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
-        addinfo: ``,
+        addinfo: [``],
         phone: [
             {
                 Name: "Raj Kumar",
-                phoneNumber: "+91 99529 53196"
+                phoneNumber: "+91 9952953196"
             },
+            {
+                Name: "Shivani",
+                phoneNumber: "+91 9361504758"
+            },
+            {
+                Name: "Madhumitha",
+                phoneNumber: "+91 9345734692"
+            },
+            {
+                Name: "Ram Vishwanath",
+                phoneNumber: "+91 9600948437"
+            },
+
         ],
-        timing: ""
+        
 
     },
+
+    // Music Fest ✅
     {
         type: "nontechnical",
         Name: 'MUSIC FEST',
@@ -245,7 +295,7 @@ const EventsData = [
 
         descrp: [`Music fest  is a fun event where the participants are  divided into 2 persons per team and each team passes the 2 rounds of the music-related task. The team with the highest score or having the highest wins in the rounds will be the winner of the day.`,],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.There must be 2 participants per team.",
             "2.College ID card is mandatory for participants",
             "3.Participants from any department is allowed",
@@ -258,13 +308,23 @@ const EventsData = [
                 phoneNumber: "+91 9791189234"
             },
             {
+                Name: "Keerthana",
+                phoneNumber: "+91 8754512213"
+            },
+            {
                 Name: "Hari Haran",
                 phoneNumber: "+91 9940424512"
             },
+            {
+                Name: "Humsavardhini",
+                phoneNumber: "+91 9361337656"
+            },
         ],
-        timing: "11:00 AM"
+        timing: [`Prelims => 11:00-12:00`,`Finale => 12:00-12:30`]
 
     },
+
+    //  PC Gaming ✅
     {
         type: "nontechnical",
         Name: "PC GAMING ",
@@ -273,7 +333,7 @@ const EventsData = [
         descrp: [`Valorant is a team-based first-person hero shooter set in the near future. Players play as one of a set of Agents.In the main game mode(competitive), players are assigned to either the attacking or defending team with each team having five players on it .You can win or You can lose its all about Rivalry and Enjoying the game.
         Come let's Play.🎮`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
             "2.	Teams will consist of 5 players (individuallyplayer and togetherteam), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
             "3.	Participants must play on their main riot account, and be at least 16 years old as of November 2022",
@@ -294,9 +354,45 @@ const EventsData = [
                 phoneNumber: "+91 8825962646"
             },
         ],
-        timing: "10:00 AM"
+        timing: [" Starts By 10:00 AM"]
 
     },
+
+    //  Mobile Gaming ✅
+    // {
+    //     type: "nontechnical",
+    //     Name: "Mobile GAMING ",
+    //     route: "mobilegaming",
+    //     quote: "You can win or You can lose its all about Rivalry and Enjoying the game",
+    //     descrp: [`Valorant is a team-based first-person hero shooter set in the near future. Players play as one of a set of Agents.In the main game mode(competitive), players are assigned to either the attacking or defending team with each team having five players on it .You can win or You can lose its all about Rivalry and Enjoying the game.
+    //     Come let's Play.🎮`],
+
+    //     addinfo: [``],
+    //     rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
+    //         "2.	Teams will consist of 5 players (individuallyplayer and togetherteam), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
+    //         "3.	Participants must play on their main riot account, and be at least 16 years old as of November 2022",
+    //         "4.	Every player should join  their respective discord servers for communication purposes.",
+    //         "5.	The matches will be conducted in the  KNOCKOUT theme (DO/DIE)."],
+
+    //     phone: [
+    //         {
+    //             Name: "Nilash",
+    //             phoneNumber: "+91 6380191293"
+    //         },
+    //         {
+    //             Name: "Gurumoorthy",
+    //             phoneNumber: "+91 7299415999"
+    //         },
+    //         {
+    //             Name: "Behorin",
+    //             phoneNumber: "+91 8825962646"
+    //         },
+    //     ],
+    //     timing: [" Starts By 10:00 AM"]
+
+    // },
+
+    // Movie Quiz ✅
     {
         type: "nontechnical",
         Name: "Dekorniza(Movies and Web series quiz) ",
@@ -305,12 +401,20 @@ const EventsData = [
         descrp: [`There are 2 rounds in the event, with the prelims(Round 1) being a pen and paper test consisting of 30-40 MCQ type questions gathered from films and web series, released and aired across globe. The time limit for Round 1 will be 20-30 mins and the teams that score top points will proceed to Round 2,which is the finale.`,
             `The finale is a buzzer round which will be conducted orally. Final results are based only on Round 2 performance.`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	A team of two can participate.",
             "2.	No electronic gadgets are allowed. If they are found to be involved in malpractice, they are strictly eliminated from the event.",
             "3.	Spot registrations are allowed only 30 minutes before the deadline for  round one."],
 
         phone: [
+            {
+                Name: "Srinidhi ",
+                phoneNumber: "+91 9841294512"
+            },
+            {
+                Name: "Nandhini ",
+                phoneNumber: "+91 9176856494"
+            },  
             {
                 Name: "Vignesh ",
                 phoneNumber: "+91 9994653812"
@@ -320,10 +424,12 @@ const EventsData = [
                 phoneNumber: "+91 8220488520"
             },
         ],
-        timing: "10:00 AM"
+        timing: [`Prelims =>Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,`Finals => 2:00 PM -3:00 PM`]
 
 
     },
+
+    // MEME ✅
     {
         type: "nontechnical",
         Name: "MEMETIC",
@@ -332,7 +438,7 @@ const EventsData = [
         descrp: [`There are two rounds in this competition.First round will be conducted online .In the first round the participants are given a set of topics/contents.The participants should create one meme relevant to one content/topic only.The participants should send the meme through Google form that will be shared through WhatsApp .The participants should send the meme in the document format.The name of the document should be name_collegename.The participants should put their name and college name in their meme posts also.The judges' decision will be the final.`,
             `The selected participants from Round 1 will be called for Round 2 which takes place at Velammal Engineering College on November 5,2022.In the second round,the participants are asked to create a video meme on a given topic .The topic will be given on the  spot.The duration of this round is 1 hour.The participants are asked to create a video meme on the mobile phones.The winners will be finalized by the judges and will get the rewards.`],
 
-        addinfo: `ONLINE EVENT`,
+        addinfo: [ ` ONLINE EVENT TO BE CONDUCTED IN PRIOR `],
         rules: ["1.	Be funny, but consider your target audience and make sure your meme resonates with them.",
             "2.	don’t post outdated memes.",
             "3.	Don’t use a meme that has offensive double-meaning words/content.",
@@ -346,16 +452,18 @@ const EventsData = [
                 phoneNumber: "+91 8870526815"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Vinoth",
+                phoneNumber: "+91 8072389186"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Bhargavi",
+                phoneNumber: "+91 8778335061"
             },
         ],
 
     },
+
+    // Quiz Anime ✅
     {
         type: "nontechnical",
         Name: "QUIZ—ANIME",
@@ -363,7 +471,7 @@ const EventsData = [
         quote: "otaku ou ni ore wa naru",
         descrp: [`An otaku event where you will be asked various questions about Different Anime and The one team which has scored the most points will be rewarded with the prize and be called as the king of Otakus !! So let's Shinzou wo sasgeyo ⚔️`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	A team of 2 is allowed",
             "2.	Mobile phones and other electronic gadgets are not allowed.",
             "3.	Questions will be based on many animes.",
@@ -371,21 +479,27 @@ const EventsData = [
         ],
         phone: [
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Rohith C H",
+                phoneNumber: "+91 8838039484"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Maheshkumar",
+                phoneNumber: "+91 9677346081"
             },
             {
-                Name: "Name",
-                phoneNumber: "+91 9999999999"
+                Name: "Sri Raghav",
+                phoneNumber: "+91 863947167"
+            },
+            {
+                Name: "Blessington",
+                phoneNumber: "+91 7550233720"
             },
         ],
-        timing: ""
+        timing: [`Prelims => Slot 1-> 10:00 AM -11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,`Finals => 1:00 PM - 2:00 PM`]
 
     },
+
+    // Adzap ✅
     {
         type: "nontechnical",
         Name: 'ADZAP',
@@ -402,7 +516,7 @@ const EventsData = [
         teams with the highest marks after consolidating both the rounds will be
         awarded as winner and runner respectively.`],
 
-        addinfo: ``,
+        addinfo: [``],
         rules: ["1.	The Number of participants in each team- 2-5 allowed in each team.",
             "2.	Number of rounds-2",
             "3.	Durationto act2-5 mins to prepare10 mins.",
@@ -411,13 +525,28 @@ const EventsData = [
         ],
         phone: [
             {
+                Name: "Suvetha",
+                phoneNumber: "+91 9841057716"
+            },
+            {
+                Name: "Kalaimani",
+                phoneNumber: "+91 9385659514"
+            },
+            {
                 Name: "Sanjay",
                 phoneNumber: "+91 9360282125"
             },
+            {
+                Name: "Amrisha",
+                phoneNumber: "+91 6374253973"
+            },
         ],
-        timing: ""
+        timing: [`Prelims => Starts By 10:00 AM`,
+                    `Finals => 2:00 PM - 3:00 PM`]
 
     },
+
+    // Murder Mystery ✅
     {
         type: "nontechnical",
         Name: 'MURDER MYSTERY',
@@ -425,21 +554,29 @@ const EventsData = [
         quote: "The true mystery of the world is the visible, not the invisible",
         descrp: [`You will be given a scenario of a crime scene and its available details through presentation as well as paper documents.After the briefing of the crime scene every team will be taken to visit the crime scene spot that was set up in the next room. Then as a team you need to investigate and find the murderer.The winning team gets a prize.`],
 
-        addinfo: `If incase of high count of team 2 slots will be given as 10 - 11 and 11 - 12 `,
+        addinfo: [`If incase of high count of team 2 slots will be given as 10 - 11 and 11 - 12 `],
         rules: ["1.	2-5 allowed per team",
             "2.	Be cautious in discussing stuff with other teams."
         ],
         phone: [
             {
+                Name: "Neha Sri",
+                phoneNumber: "+91 7811019966"
+            },
+            {
                 Name: "Vidhya Sagar",
                 phoneNumber: "+91 9488921495"
             },
             {
-                Name: "Name",
+                Name: "Melphin Madonna",
+                phoneNumber: "+91 9486231077"
+            },
+            {
+                Name: "Harish",
                 phoneNumber: "+91 9360461148"
             },
         ],
-        timing: "10:AM"
+        timing: [" Starts By 10:00 AM"]
 
     },
 
