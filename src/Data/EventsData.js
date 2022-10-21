@@ -135,7 +135,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: [``],
+        addinfo: [`Abstract should be sent to ozmenta2k22@gmail.com`],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
@@ -261,8 +261,8 @@ const EventsData = [
         Name: 'WORKSHOP',
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
-        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming, Drone technology, Cloud computing, Blockchain, and Web3 technology. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
-        addinfo: [``],
+        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming, Drone technology,SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
+        addinfo: [`EVENTS DOMAIN:`,`Full stack Programming`, `Drone technology`,`SCRUM master` , `Microsoft Sharepoint`],
         phone: [
             {
                 Name: "Raj Kumar",
@@ -335,7 +335,7 @@ const EventsData = [
 
         addinfo: [``],
         rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
-            "2.	Teams will consist of 5 players (individuallyplayer and togetherteam), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
+            "2.	Teams will consist of 5 players (individually->player and together->team), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
             "3.	Participants must play on their main riot account, and be at least 16 years old as of November 2022",
             "4.	Every player should join  their respective discord servers for communication purposes.",
             "5.	The matches will be conducted in the  KNOCKOUT theme (DO/DIE)."],
@@ -359,45 +359,44 @@ const EventsData = [
     },
 
     //  Mobile Gaming ✅
-    // {
-    //     type: "nontechnical",
-    //     Name: "Mobile GAMING ",
-    //     route: "mobilegaming",
-    //     quote: "If we don't end war, war will end us",
-    //     descrp: [`A gaming event, where you will get a chance to play the "Call Of Duty Mobile" game. The one team who won many team death matches will be the winner. The event will provide you with a cash prize that has won many team death battles. Whoever scores the highest kills in team death battles will receive the runner-up prize. The winner will be called "CoD Immortal".So lets the battle begin ⚔️.........`],
+    {
+        type: "nontechnical",
+        Name: "MOBILE GAMING ",
+        route: "mobilegaming",
+        quote: "If we don't end war, war will end us",
+        descrp: [`A gaming event, where you will get a chance to play the "Call Of Duty Mobile" game. The one team who won many team death matches will be the winner. The event will provide you with a cash prize that has won many team death battles. Whoever scores the highest kills in team death battles will receive the runner-up prize. The winner will be called "CoD Immortal".So lets the battle begin ⚔️.........`],
 
-    //     addinfo: [``],
-    //     rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
-    //         "2.	Teams will consist of 5 players (individuallyplayer and togetherteam), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
-    //         "3.	Participants must play on their main riot account, and be at least 16 years old as of November 2022",
-    //         "4.	Every player should join  their respective discord servers for communication purposes.",
-    //         "5.	The matches will be conducted in the  KNOCKOUT theme (DO/DIE)."],
+        addinfo: [``],
+        rules: ["1.    Participants should have the game installed in thier phone",
+            "2.	Partcipants should have their College ID card",
+            "3.	Participants should not use any illegal tools for the game.",
+            ],
 
-    //     phone: [
-    //         {
-    //             Name: "Nilash",
-    //             phoneNumber: "+91 6380191293"
-    //         },
-    //         {
-    //             Name: "Gurumoorthy",
-    //             phoneNumber: "+91 7299415999"
-    //         },
-    //         {
-    //             Name: "Behorin",
-    //             phoneNumber: "+91 8825962646"
-    //         },
-    //     ],
-    //     timing: [" Starts By 10:00 AM"]
+        phone: [
+            {
+                Name: "Godwin",
+                phoneNumber: "+91 6382085712"
+            },
+            {
+                Name: "Ashkar Ali",
+                phoneNumber: "+91 9841761512"
+            },
+            {
+                Name: "Rathish",
+                phoneNumber: "+91 8870812013"
+            },
+        ],
+        timing: [" Starts By 10:00 AM"]
 
-    // },
+    },
 
     // Movie Quiz ✅
     {
         type: "nontechnical",
-        Name: "Dekorniza(Movies and Web series quiz) ",
+        Name: "DEKORNIZA",
         route: "quizmovie",
         quote: "It's time to activate your cinematic persona. Slip into the world of films and web series and become a part of the creation. ",
-        descrp: [`There are 2 rounds in the event, with the prelims(Round 1) being a pen and paper test consisting of 30-40 MCQ type questions gathered from films and web series, released and aired across globe. The time limit for Round 1 will be 20-30 mins and the teams that score top points will proceed to Round 2,which is the finale.`,
+        descrp: [`It is a Quiz event of Movies and Web series .There are 2 rounds in the event, with the prelims(Round 1) being a pen and paper test consisting of 30-40 MCQ type questions gathered from films and web series, released and aired across globe. The time limit for Round 1 will be 20-30 mins and the teams that score top points will proceed to Round 2,which is the finale.`,
             `The finale is a buzzer round which will be conducted orally. Final results are based only on Round 2 performance.`],
 
         addinfo: [``],
@@ -437,7 +436,7 @@ const EventsData = [
         descrp: [`There are two rounds in this competition.First round will be conducted online .In the first round the participants are given a set of topics/contents.The participants should create one meme relevant to one content/topic only.The participants should send the meme through Google form that will be shared through WhatsApp .The participants should send the meme in the document format.The name of the document should be name_collegename.The participants should put their name and college name in their meme posts also.The judges' decision will be the final.`,
             `The selected participants from Round 1 will be called for Round 2 which takes place at Velammal Engineering College on November 5,2022.In the second round,the participants are asked to create a video meme on a given topic .The topic will be given on the  spot.The duration of this round is 1 hour.The participants are asked to create a video meme on the mobile phones.The winners will be finalized by the judges and will get the rewards.`],
 
-        addinfo: [ ` ONLINE EVENT TO BE CONDUCTED IN PRIOR `],
+        addinfo: [ ` ONLINE EVENT TO BE CONDUCTED IN PRIOR ` , `After Registeration Join This Whatsapp Group using the link`],
         rules: ["1.	Be funny, but consider your target audience and make sure your meme resonates with them.",
             "2.	don’t post outdated memes.",
             "3.	Don’t use a meme that has offensive double-meaning words/content.",
@@ -445,6 +444,10 @@ const EventsData = [
             "5.	The memes which are irrelevant to the content will be disqualified.",
             "6.	One meme submission by one participant."
         ],
+        grpLink:{
+            mode:"whatsapp", 
+            link:"https://chat.whatsapp.com/KtVQLqNniky4jD9PTpm8Jn"
+        },
         phone: [
             {
                 Name: "Naresh",

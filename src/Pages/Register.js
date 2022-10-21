@@ -31,10 +31,10 @@ const Register = () => {
                     </h1>
                     <p className='text-paragraph font-semibold ml-6 flex flex-col gap-2'>
                         <p>
-                            1. Every student should Register <span>INDIVIDUALLY</span>
+                            1. Every student should Register <span className='grad_text'>INDIVIDUALLY</span> even for team events.
                         </p>
-                        <p>2. Registeration fees is &#8377; 200.</p>
-                        <p>3. Regitration fees will be &#8377; 300 for wokshop.</p>
+                        <p>2. Registration fees is &#8377; 200.</p>
+                        <p>3. Registration fees will be &#8377; 300 for wokshop.</p>
                         <p>4. Every individual is allowed to participate in max 3 events.</p>
                         <p>5. The 3 events include both Technical and NonTechnical.</p>
                         <p>6. It is adviced to check the event timings to avoid clashes.</p>
@@ -42,7 +42,7 @@ const Register = () => {
                     </p>
 
                 </div>
-               <a className='w-full flex items-center justify-center' href='https://forms.gle/6PmfvHWCMk4NKpn1A' target={`_blank`}> <button className='  border-2 h-fit my-auto px-2 py-1 rounded-md mb-3 border-highlight text-headline bg-highlight hover:text-highlight hover:bg-transparent'>Click Here To Register</button></a>
+               <a className='w-full flex items-center justify-center' href='https://forms.gle/6PmfvHWCMk4NKpn1A' target={`_blank`}> <button className='  border-2 h-fit my-auto px-2 py-1 rounded-md mb-3 border-highlight text-headline bg-highlight hover:text-highlight hover:bg-card '>Click Here To Register</button></a>
 
                 <div className='flex flex-col lg:flex-row gap-8 items-center justify-between'>
                     <div className='w-full lg:w-1/3 relative py-2 pr-2'>

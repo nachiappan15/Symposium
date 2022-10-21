@@ -12,9 +12,9 @@ import GlassBg from '../Components/GlassBg'
 const Contact = () => {
     return (
         <motion.div
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        exit={{opacity:0}} className='flex flex-col grow w-full  px-5 lg:px-10 py-5 lg:py-10'>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }} className='flex flex-col grow w-full  px-5 lg:px-10 py-5 lg:py-10'>
 
             <h1 className='text-xl lg:text-3xl font-bold underline text-center text-headline '>
                 Contact Us
@@ -38,13 +38,13 @@ const Contact = () => {
                         </h1>
 
                         <div className='h-full w-full lg:w-2/3  px-2 flex flex-col gap-4 ml-6'>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 9080341616<AiTwotonePhone size={25} /></p>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 9941386211 <AiTwotonePhone size={25} /></p>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 7598607810 <AiTwotonePhone size={25} /></p>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 9150721904 <AiTwotonePhone size={25} /></p>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 8939769119 <AiTwotonePhone size={25} /></p>
-                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'>+91 9444200046 <AiTwotonePhone size={25} /></p>
-                            
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex  justify-between items-center '><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span>Vijay Adityaa </span>  <span>+91 9080341616</span></span><AiTwotonePhone size={25} /></p>
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span>Aparna </span>  <span>+91 9441386211</span></span>  <AiTwotonePhone size={25} /></p>
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span>Ganesh </span>  <span>+91 7598607810</span></span>  <AiTwotonePhone size={25} /></p>
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span> Amruthavarshini </span>  <span>+91 9150721904</span></span>  <AiTwotonePhone size={25} /></p>
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span> Kishore Balaji </span>  <span>+91 8939769119</span></span>  <AiTwotonePhone size={25} /></p>
+                            <p className='text-paragraph font-semibold border-b-2 border-paragraph flex justify-between items-center'><span className='flex flex-col lg:flex-row gap-1 lg:gap-6'><span>Yuktha Sri K H </span>  <span>+91 9444200046</span></span>  <AiTwotonePhone size={25} /></p>
+
 
                         </div>
 
@@ -56,7 +56,7 @@ const Contact = () => {
 
                             Email <MdEmail size={35} />
                         </h1>
-                        <p className=' ml-6 text-paragraph font-semibold border-b-2 border-paragraph'>naachiappan15@gmail.com</p>
+                        <p className=' ml-6 text-paragraph font-semibold border-b-2 border-paragraph'>ozmenta2k22@gmail.com</p>
 
                     </div>
 

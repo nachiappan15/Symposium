@@ -17,7 +17,7 @@ import workshop from "../images/workshop.jpeg"//Workshop
 
 import musicfest from "../images/musicfest.png"//music fest
 import pcgaming from "../images/pcgaming.jpg"//pc gaming
-//mobile gaming
+import mobilegaming from "../images/mobilegaming.jpg"//mobile gaming
 import quizmovieimg from "../images/quizmovie.jpg"//Movie Quiz
 import meme from "../images/meme.jpeg"//MEME
 import quizanime from "../images/quizanime.jpg" //Quiz anime
@@ -43,6 +43,7 @@ const EventsAbout = () => {
 
         musicfest: musicfest,
         pcgaming: pcgaming,
+        mobilegaming:mobilegaming,
         quizmovie: quizmovieimg,
         memetic: meme,
         quizanime: quizanime,
@@ -65,15 +66,15 @@ const EventsAbout = () => {
 
     return (
         <motion.div
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        exit={{opacity:0}} className='w-full h-min-full grow  lg:px-20 lg:py-6 '>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }} className='w-full h-min-full grow  lg:px-20 lg:py-6 '>
             <div className='h-full w-full  flex flex-col p-4 justify-center '>
 
                 <h1 className='text-xl lg:text-3xl font-semibold underline text-headline text-center mb-2'>{event.Name}</h1>
                 <div className=' flex-col flex lg:flex-row-reverse lg:gap-4 gap-2 p-2'>
                     <div className='  lg:w-2/5 p-2 rounded-lg overflow-hidden'>
-                        <img src={`${images[event.route]}`} className=' rounded-lg'  alt= ""/>
+                        <img src={`${images[event.route]}`} className=' rounded-lg' alt="" />
 
                     </div>
                     <div className='lg:w-1/2 w-full  flex items-center justify-center flex-col p-2  relative'>
@@ -81,8 +82,8 @@ const EventsAbout = () => {
                         {/* <h1 className='text-xl font-semibold text-highlight  flex-none ml-2 '>What is {event.Name}   </h1> */}
                         <p className='text-paragraph font-semibold mt-1  text-sm lg:text-base  '>
                             {event.descrp.map(i => { return <p >{i}</p> })}
-                            { event.addinfo!= [``] && 
-                            event.addinfo.map(i=>{return <p className='grad_text font-bold mt-4'>{i}</p>} )}
+                            {event.addinfo !== [``] &&
+                                event.addinfo.map(i => { return <p className='grad_text font-bold mt-4'>{i}</p> })}
                         </p>
                     </div>
                 </div>
@@ -105,6 +106,11 @@ const EventsAbout = () => {
                         })}</p>
 
                     </div>}
+                {
+                    event.grpLink && 
+                    <a className='w-full flex items-center justify-center mt-2' href={event.grpLink.link} target={`_blank`}>  <button className="text-white bg-selected p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Join on {event.grpLink.mode} </button></a>
+                    
+                }
                 <div className='flex items-center justify-center mt-2'>
                     <Link to="/register"><button className="text-white bg-gray-900 p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Register Now</button></Link>
 
