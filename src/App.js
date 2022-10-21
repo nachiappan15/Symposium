@@ -16,6 +16,7 @@ import Contact from './Pages/Contact';
 import Events from './Pages/Events';
 import Home from './Pages/Home';
 import EventsAbout from './Pages/EventsAbout';
+import Footer from './Components/Footer';
 // import ScrollToTop from './Components/ScrollToTop '; 
 
 
@@ -30,7 +31,7 @@ function App() {
   return (<>
     <div className="App flex flex-auto w-full min-h-screen bg-background2 " >
 
-      <div className='h-full flex-auto grow w-full  zindex '>
+      <div className=' flex flex-col  justify-between grow w-full  zindex '>
 
         <BrowserRouter>
           {/* navbar */}
@@ -47,6 +48,7 @@ function App() {
 
             </Routes>
           </ScrollToTop >
+          <Footer/>
         </BrowserRouter>
 
       </div>

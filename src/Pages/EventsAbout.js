@@ -17,9 +17,10 @@ import workshop from "../images/workshop.jpeg"//Workshop
 
 import musicfest from "../images/musicfest.png"//music fest
 import pcgaming from "../images/pcgaming.jpg"//pc gaming
+//mobile gaming
 import quizmovieimg from "../images/quizmovie.jpg"//Movie Quiz
 import meme from "../images/meme.jpeg"//MEME
-import quizanime from "../images/quizanime.png" //Quiz anime
+import quizanime from "../images/quizanime.jpg" //Quiz anime
 import adzap from "../images/adzap.png"//adzap
 import murdermystery from "../images/murdermystery.png"//Murder Mystery
 

@@ -11,7 +11,7 @@ const Home = () => {
         initial={{opacity:0}}
         animate={{opacity:1}}
         exit={{opacity:0}}
-    className=" grow flex flex-auto flex-col lg:gap-8 gap-10 items-center    py-20  lg:py-5">
+    className="h-full  flex flex-auto flex-col lg:gap-8 gap-10 items-center    py-20  lg:py-5">
       <div className="flex items-center flex-col justify-center gap-2 text-center">
         <span className="text-sm lg:text-3xl font-semibold text-headline">
           Department of Computer Science and Engineering

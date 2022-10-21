@@ -44,3 +44,12 @@
     opacity: .7;
     border-radius: 20px;
 }
+.footerglassbg{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+    /* border-radius: 20px; */
+}

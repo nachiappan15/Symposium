@@ -363,9 +363,8 @@ const EventsData = [
     //     type: "nontechnical",
     //     Name: "Mobile GAMING ",
     //     route: "mobilegaming",
-    //     quote: "You can win or You can lose its all about Rivalry and Enjoying the game",
-    //     descrp: [`Valorant is a team-based first-person hero shooter set in the near future. Players play as one of a set of Agents.In the main game mode(competitive), players are assigned to either the attacking or defending team with each team having five players on it .You can win or You can lose its all about Rivalry and Enjoying the game.
-    //     Come let's Play.🎮`],
+    //     quote: "If we don't end war, war will end us",
+    //     descrp: [`A gaming event, where you will get a chance to play the "Call Of Duty Mobile" game. The one team who won many team death matches will be the winner. The event will provide you with a cash prize that has won many team death battles. Whoever scores the highest kills in team death battles will receive the runner-up prize. The winner will be called "CoD Immortal".So lets the battle begin ⚔️.........`],
 
     //     addinfo: [``],
     //     rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
