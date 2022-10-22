@@ -85,6 +85,9 @@ const EventsAbout = () => {
                             {event.addinfo !== [``] &&
                                 event.addinfo.map(i => { return <p className='grad_text font-bold mt-4'>{i}</p> })}
                         </p>
+                        {
+                            event.prbstmt && <a href={event.prbstmt}><button className='text-white bg-highlight p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110'>Problem Statements</button></a>
+                        }
                     </div>
                 </div>
 

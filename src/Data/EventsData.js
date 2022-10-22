@@ -58,6 +58,11 @@ const EventsData = [
         quote: "Design. Develop. Deliver",
         descrp: [`5 hours, nerve-wracking problem statements and an environment full of code and logic, a hackathon will provide a platform for the participants to make a website, android app, or a AI/ML software is limited period based on a problem related to real life`],
 
+        grpLink:{
+            mode:"Telegram", 
+            link:"https://t.me/+-mvxkRg2-31iMzI9"
+        },
+        prbstmt:"https://ozmenta-hackathon.netlify.app/",
         addinfo: [``],
         rules: ["1.	2-4 members per team",
             "2.	Participants can choose any one from the given topic",
