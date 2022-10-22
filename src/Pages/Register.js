@@ -34,7 +34,7 @@ const Register = () => {
                             1. Every student should Register <span className='grad_text'>INDIVIDUALLY</span> even for team events.
                         </p>
                         <p>2. Registration fees is &#8377; 200.</p>
-                        <p>3. Registration fees will be &#8377; 300 for wokshop.</p>
+                        <p>3. Registration fees will be &#8377; 300 for workshop.</p>
                         <p>4. Every individual is allowed to participate in max 3 events.</p>
                         <p>5. The 3 events include both Technical and NonTechnical.</p>
                         <p>6. It is adviced to check the event timings to avoid clashes.</p>
