@@ -71,16 +71,16 @@ const EventsData = [
                 phoneNumber: "+91 6385590977"
             },
             {
-                Name: "Meenakshi",
-                phoneNumber: "+91 9840732837"
+                Name: "Kuldeep ",
+                phoneNumber: "+91  8939010520"
+            },
+            {
+                Name: "Priyadharshini  ",
+                phoneNumber: "+91   6369958165"
             },
             {
                 Name: "Yashwanth",
                 phoneNumber: "+91 8883733869"
-            },
-            {
-                Name: "Shiva Aravindh",
-                phoneNumber: "+91 9840934008"
             },
         ],
         timing: [" Starts By 10:00 AM"]
