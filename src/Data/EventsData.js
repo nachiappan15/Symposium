@@ -104,9 +104,9 @@ const EventsData = [
         rules: ["1.	Must have a fundamental knowledge of hardware.",
             "2.	Be careful while handling components.",
             "3.	Use the right tools for the job.",
-            "4.	Don’t Use mobile phones, electronic gadgets.",
-            "5.	Don’t change the parts by mismatching the components and cables.",
-            "6.	Once you complete the task by assembling the components and if it has not started, you dint get a second chance."
+            "4.	Dont Use mobile phones, electronic gadgets.",
+            "5.	Do not damage the parts by mismatching the components and cables.",
+            "6.	Once you complete the task by assembling the components and if it has not started, you will not get a second chance."
 
         ],
         phone: [
@@ -266,7 +266,7 @@ const EventsData = [
         Name: 'WORKSHOP',
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
-        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming, Drone technology,SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
+        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
         addinfo: [`EVENTS DOMAIN:`,`Full stack Programming`,`SCRUM master` , `Microsoft Sharepoint`],
         phone: [
             {
