@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4281c0b1.css",
+    "main.js": "/static/js/main.08396c5b.js",
+    "static/js/787.83ce1910.chunk.js": "/static/js/787.83ce1910.chunk.js",
+    "static/media/ozmenta.png": "/static/media/ozmenta.c3506803b7d821b540ad.png",
+    "static/media/quizanime.jpg": "/static/media/quizanime.61ff572de21da08cfbfa.jpg",
+    "static/media/sharktank.png": "/static/media/sharktank.789291fc1405ce932e87.png",
+    "static/media/workshop.jpeg": "/static/media/workshop.d2688380e10a1a41092c.jpeg",
+    "static/media/murdermystery.png": "/static/media/murdermystery.88b721b724dff9515dd5.png",
+    "static/media/mobilegaming.jpg": "/static/media/mobilegaming.b433dbc190b4f85ee60d.jpg",
+    "static/media/techon.png": "/static/media/techon.629dc0490415e6eed826.png",
+    "static/media/paperpresentation.jpeg": "/static/media/paperpresentation.42556a66a21d32abf677.jpeg",
+    "static/media/pcgaming.jpg": "/static/media/pcgaming.5cb83cd4ecde118dbe88.jpg",
+    "static/media/hackathon.jpg": "/static/media/hackathon.69a852449a4cd7123a7f.jpg",
+    "static/media/coding.jpeg": "/static/media/coding.00301e72592595b7129b.jpeg",
+    "static/media/musicfest.png": "/static/media/musicfest.b24b7a170a9f6ea2ada4.png",
+    "static/media/meme.jpeg": "/static/media/meme.0a374fc730aac79931c8.jpeg",
+    "static/media/quizmovie.jpg": "/static/media/quizmovie.aab180d79b34509d1add.jpg",
+    "static/media/screwit.jpeg": "/static/media/screwit.dd48a8e038fb6bd73465.jpeg",
+    "static/media/adzap.png": "/static/media/adzap.3c33756d8d6a0d884e80.png",
+    "index.html": "/index.html",
+    "main.4281c0b1.css.map": "/static/css/main.4281c0b1.css.map",
+    "main.08396c5b.js.map": "/static/js/main.08396c5b.js.map",
+    "787.83ce1910.chunk.js.map": "/static/js/787.83ce1910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4281c0b1.css",
+    "static/js/main.08396c5b.js"
+  ]
+}

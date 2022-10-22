@@ -262,7 +262,7 @@ const EventsData = [
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
         descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming, Drone technology,SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
-        addinfo: [`EVENTS DOMAIN:`,`Full stack Programming`, `Drone technology`,`SCRUM master` , `Microsoft Sharepoint`],
+        addinfo: [`EVENTS DOMAIN:`,`Full stack Programming`,`SCRUM master` , `Microsoft Sharepoint`],
         phone: [
             {
                 Name: "Raj Kumar",
@@ -334,6 +334,10 @@ const EventsData = [
         Come let's Play.🎮`],
 
         addinfo: [``],
+        grpLink:{
+            mode:"Discord", 
+            link:"https://discord.gg/6MzHyP2UhW"
+        },
         rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
             "2.	Teams will consist of 5 players (individually->player and together->team), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
             "3.	Participants must play on their main riot account, and be at least 16 years old as of November 2022",
