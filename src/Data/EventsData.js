@@ -340,8 +340,8 @@ const EventsData = [
 
         addinfo: [``],
         grpLink:{
-            mode:"Discord", 
-            link:"https://discord.gg/6MzHyP2UhW"
+            mode:"Whatsapp", 
+            link:"https://chat.whatsapp.com/Eo0QVm9S01OFlxe8uSU7iY"
         },
         rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
             "2.	Teams will consist of 5 players (individually->player and together->team), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
