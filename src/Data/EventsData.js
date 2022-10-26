@@ -373,7 +373,7 @@ const EventsData = [
         Name: "MOBILE GAMING ",
         route: "mobilegaming",
         quote: "If we don't end war, war will end us",
-        descrp: [`A gaming event, where you will get a chance to play the "Call Of Duty Mobile" game. The one team who won many team death matches will be the winner. The event will provide you with a cash prize that has won many team death battles. Whoever scores the highest kills in team death battles will receive the runner-up prize. The winner will be called "CoD Immortal".So lets the battle begin ⚔️.........`],
+        descrp: [`An gaming event, where you will get a chance to play "BGMI Mobile" game. The one team who won many team death matches will be the winner.The event will provide you with the cash prize which has won many team death match (tdm). Whomever scores the highest kills in team death match will receive the runner up prize. The winner will called ""BGMI Immortal".So let's the battle begin ⚔️.........`],
 
         addinfo: [``],
         rules: ["1.    Participants should have the game installed in thier phone",
