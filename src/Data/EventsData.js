@@ -150,7 +150,7 @@ const EventsData = [
         ],
         phone: [
             {
-                Name: "Yuvashreeame",
+                Name: "Yuvashree",
                 phoneNumber: "+91 8248135591"
             },
             {
