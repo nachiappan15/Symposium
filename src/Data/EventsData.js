@@ -140,7 +140,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: [`Abstract should be sent to ozmenta2k22@gmail.com`],
+        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
