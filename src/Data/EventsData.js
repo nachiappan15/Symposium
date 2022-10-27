@@ -148,6 +148,10 @@ const EventsData = [
             "5.	The presentation is limited to a max of 15 slides and a time of 10 mins.",
             "6.	Participants are required to upload their abstracts 5 days before the actual event."
         ],
+        grpLink:{
+            mode:"Whatsapp", 
+            link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
+        },
         phone: [
             {
                 Name: "Yuvashree",
@@ -413,10 +417,7 @@ const EventsData = [
             "2.	No electronic gadgets are allowed. If they are found to be involved in malpractice, they are strictly eliminated from the event.",
             "3.	Spot registrations are allowed only 30 minutes before the deadline for  round one."],
 
-            grpLink:{
-                mode:"Whatsapp", 
-                link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
-            },
+            
             phone: [
             {
                 Name: "Srinidhi ",
