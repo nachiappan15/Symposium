@@ -9,7 +9,7 @@ const EventsData = [
         descrp: [`This is the right place to unfold your inventions in front of sharks and get the opportunity to win funding up to 15 lakhs. The event has three different categories. The first category is The Best Project, in which candidates can present their inventions and the best invention will be awarded. `,
             `The second category is the best Innovative idea in which candidates can bring up their proposals, and the best idea will be rewarded, and the third category is called Special Implementation. Candidates can bring up their innovative ideas based on the problem statement. The best proposals will get funding of up to INR 15 lacs. Participants can pose their inventions in any domain.`],
 
-        addinfo: [`Innovative Idea --> ₹1000 `,` Best Project --> ₹1500` , `Special Implementation --> College Sponsor upto (₹15 Lakhs)`],
+        addinfo: [`Innovative Idea --> ₹1000 `, ` Best Project --> ₹1500`, `Special Implementation --> College Sponsor upto (₹15 Lakhs)`],
         rules: ["1.	Team members 1-3",
             "2.	Time limit 5-10 mins",
             "3.	There are 2 rounds first is the prelims (elimination round) and the second is the final round.",
@@ -58,11 +58,11 @@ const EventsData = [
         quote: "Design. Develop. Deliver",
         descrp: [`5 hours, nerve-wracking problem statements and an environment full of code and logic, a hackathon will provide a platform for the participants to make a website, android app, or a AI/ML software is limited period based on a problem related to real life`],
 
-        grpLink:{
-            mode:"Telegram", 
-            link:"https://t.me/+-mvxkRg2-31iMzI9"
+        grpLink: {
+            mode: "Telegram",
+            link: "https://t.me/+-mvxkRg2-31iMzI9"
         },
-        prbstmt:"https://ozmenta-hackathon.netlify.app/",
+        prbstmt: "https://ozmenta-hackathon.netlify.app/",
         addinfo: [``],
         rules: ["1.	2-4 members per team",
             "2.	Participants can choose any one from the given topic",
@@ -109,9 +109,9 @@ const EventsData = [
             "6.	Once you complete the task by assembling the components and if it has not started, you will not get a second chance."
 
         ],
-        grpLink:{
-            mode:"Whatsapp", 
-            link:"https://chat.whatsapp.com/BFHswWYWoFd6ZmAswymbxn"
+        grpLink: {
+            mode: "Whatsapp",
+            link: "https://chat.whatsapp.com/BFHswWYWoFd6ZmAswymbxn"
         },
         phone: [
             {
@@ -144,7 +144,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`],
+        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`, `Domains :: `, `1. IoT`, `2. Cloud Computing`, `3. Web Development`, `4. Data Analytics`, `5. AI ML`, `6. Big Data`, `7. Blockchain`, `8. Cyber security`, `9. AR & VR`, `10. Convolutional Neural Network`, `11. Projects done before with Demo.`],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
@@ -152,7 +152,7 @@ const EventsData = [
             "5.	The presentation is limited to a max of 15 slides and a time of 10 mins.",
             "6.	Participants are required to upload their abstracts 5 days before the actual event."
         ],
-       
+
         phone: [
             {
                 Name: "Yuvashree",
@@ -189,10 +189,10 @@ const EventsData = [
             "3.	Electronic gadgets are not allowed during the events",
             "4.	Be on time ",
             "5.	Don’t indulge in malpractice."],
-            grpLink:{
-                mode:"Whatsapp", 
-                link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
-            },
+        grpLink: {
+            mode: "Whatsapp",
+            link: "https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
+        },
         phone: [
             {
                 Name: "Mahalakshmi",
@@ -211,7 +211,7 @@ const EventsData = [
                 phoneNumber: "+91 9361874453"
             },
         ],
-        timing: [`Prelims => Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,  ` Finale => 1:00 PM-2:00 PM`]
+        timing: [`Prelims => Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`, ` Finale => 1:00 PM-2:00 PM`]
 
 
     },
@@ -265,7 +265,7 @@ const EventsData = [
                 phoneNumber: "+91 9384940452)"
             },
         ],
-        timing: [`Prelims => Slot 1 -> 10:00 AM-11:00 AM , Slot 2 -> 11:00 AM-12:00 PM`,  ` Finale => 2:00 PM-3:00 PM`]
+        timing: [`Prelims => Slot 1 -> 10:00 AM-11:00 AM , Slot 2 -> 11:00 AM-12:00 PM`, ` Finale => 2:00 PM-3:00 PM`]
 
     },
 
@@ -276,7 +276,7 @@ const EventsData = [
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
         descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
-        addinfo: [`EVENTS DOMAIN:`,`Full stack Programming`,`SCRUM master` , `Microsoft Sharepoint` , `Drone Technology`],
+        addinfo: [`EVENTS DOMAIN:`, `Full stack Programming`, `SCRUM master`, `Microsoft Sharepoint`, `Drone Technology`],
         phone: [
             {
                 Name: "Raj Kumar",
@@ -296,7 +296,7 @@ const EventsData = [
             },
 
         ],
-        
+
 
     },
 
@@ -334,7 +334,7 @@ const EventsData = [
                 phoneNumber: "+91 9361337656"
             },
         ],
-        timing: [`Prelims => 11:00-12:00`,`Finale => 12:00-12:30`]
+        timing: [`Prelims => 11:00-12:00`, `Finale => 12:00-12:30`]
 
     },
 
@@ -348,9 +348,9 @@ const EventsData = [
         Come let's Play.🎮`],
 
         addinfo: [``],
-        grpLink:{
-            mode:"Whatsapp", 
-            link:"https://chat.whatsapp.com/Eo0QVm9S01OFlxe8uSU7iY"
+        grpLink: {
+            mode: "Whatsapp",
+            link: "https://chat.whatsapp.com/Eo0QVm9S01OFlxe8uSU7iY"
         },
         rules: ["1.    Participants are eligible to play if the registration account is used. If any participants want to change their game account, they have to contact the contest host.",
             "2.	Teams will consist of 5 players (individually->player and together->team), one of whom will be designated as team leader and will be the main point of contact with the tournament organizers.",
@@ -388,7 +388,7 @@ const EventsData = [
         rules: ["1.    Participants should have the game installed in thier phone",
             "2.	Partcipants should have their College ID card",
             "3.	Participants should not use any illegal tools for the game.",
-            ],
+        ],
 
         phone: [
             {
@@ -422,8 +422,8 @@ const EventsData = [
             "2.	No electronic gadgets are allowed. If they are found to be involved in malpractice, they are strictly eliminated from the event.",
             "3.	Spot registrations are allowed only 30 minutes before the deadline for  round one."],
 
-            
-            phone: [
+
+        phone: [
             {
                 Name: "Srinidhi ",
                 phoneNumber: "+91 9841294512"
@@ -431,7 +431,7 @@ const EventsData = [
             {
                 Name: "Nandhini ",
                 phoneNumber: "+91 9176856494"
-            },  
+            },
             {
                 Name: "Vignesh ",
                 phoneNumber: "+91 9994653812"
@@ -441,7 +441,7 @@ const EventsData = [
                 phoneNumber: "+91 8220488520"
             },
         ],
-        timing: [`Prelims =>Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,`Finals => 2:00 PM -3:00 PM`]
+        timing: [`Prelims =>Slot 1-> 10:00 AM-11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`, `Finals => 2:00 PM -3:00 PM`]
 
 
     },
@@ -455,7 +455,7 @@ const EventsData = [
         descrp: [`There are two rounds in this competition.First round will be conducted online .In the first round the participants are given a set of topics/contents.The participants should create one meme relevant to one content/topic only.The participants should send the meme through Google form that will be shared through WhatsApp .The participants should send the meme in the document format.The name of the document should be name_collegename.The participants should put their name and college name in their meme posts also.The judges' decision will be the final.`,
             `The selected participants from Round 1 will be called for Round 2 which takes place at Velammal Engineering College on November 5,2022.In the second round,the participants are asked to create a video meme on a given topic .The topic will be given on the  spot.The duration of this round is 1 hour.The participants are asked to create a video meme on the mobile phones.The winners will be finalized by the judges and will get the rewards.`],
 
-        addinfo: [ ` ONLINE EVENT TO BE CONDUCTED IN PRIOR ` , `After Registeration Join This Whatsapp Group using the link`],
+        addinfo: [` ONLINE EVENT TO BE CONDUCTED IN PRIOR `, `After Registeration Join This Whatsapp Group using the link`],
         rules: ["1.	Be funny, but consider your target audience and make sure your meme resonates with them.",
             "2.	don’t post outdated memes.",
             "3.	Don’t use a meme that has offensive double-meaning words/content.",
@@ -463,9 +463,9 @@ const EventsData = [
             "5.	The memes which are irrelevant to the content will be disqualified.",
             "6.	One meme submission by one participant."
         ],
-        grpLink:{
-            mode:"whatsapp", 
-            link:"https://chat.whatsapp.com/KtVQLqNniky4jD9PTpm8Jn"
+        grpLink: {
+            mode: "whatsapp",
+            link: "https://chat.whatsapp.com/KtVQLqNniky4jD9PTpm8Jn"
         },
         phone: [
             {
@@ -516,7 +516,7 @@ const EventsData = [
                 phoneNumber: "+91 7550233720"
             },
         ],
-        timing: [`Prelims => Slot 1-> 10:00 AM -11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`,`Finals => 1:00 PM - 2:00 PM`]
+        timing: [`Prelims => Slot 1-> 10:00 AM -11:00 AM ,Slot 2-> 11:00 AM-12:00 PM`, `Finals => 1:00 PM - 2:00 PM`]
 
     },
 
@@ -563,7 +563,7 @@ const EventsData = [
             },
         ],
         timing: [`Prelims => Starts By 10:00 AM`,
-                    `Finals => 2:00 PM - 3:00 PM`]
+            `Finals => 2:00 PM - 3:00 PM`]
 
     },
 
