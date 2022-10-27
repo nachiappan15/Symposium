@@ -140,7 +140,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`],
+        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`,`Join the Whatsapp group after registration.`],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
@@ -413,7 +413,11 @@ const EventsData = [
             "2.	No electronic gadgets are allowed. If they are found to be involved in malpractice, they are strictly eliminated from the event.",
             "3.	Spot registrations are allowed only 30 minutes before the deadline for  round one."],
 
-        phone: [
+            grpLink:{
+                mode:"Whatsapp", 
+                link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
+            },
+            phone: [
             {
                 Name: "Srinidhi ",
                 phoneNumber: "+91 9841294512"

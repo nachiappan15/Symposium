@@ -17,7 +17,7 @@ import workshop from "../images/workshop.jpeg"//Workshop
 
 import musicfest from "../images/musicfest.png"//music fest
 import pcgaming from "../images/pcgaming.jpg"//pc gaming
-import mobilegaming from "../images/mobilegaming.jpg"//mobile gaming
+import mobilegaming from "../images/mobilegaming.jpeg"//mobile gaming
 import quizmovieimg from "../images/quizmovie.jpg"//Movie Quiz
 import meme from "../images/meme.jpeg"//MEME
 import quizanime from "../images/quizanime.jpg" //Quiz anime
