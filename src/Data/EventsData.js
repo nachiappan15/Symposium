@@ -140,7 +140,7 @@ const EventsData = [
         descrp: [`There are different domains in this single round event and the duration per team is a maximum of 8-10 mins including Intro and Q&A .`,
             `Every participant should take part in the event. Your presentation will be judged for originality and creativity, organization of content, oral presentation, knowledge of material, clarity of artwork (charts, graphs, slides), and overall presentation.`],
 
-        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`,`Join the Whatsapp group after registration.`],
+        addinfo: [`Abstract should be sent to paperpresentationvec@gmail.com`],
         rules: ["1.	Each team can consist of 3 members.",
             " 2.	Bring your PPT in a pen drive and/or laptop.",
             " 3.	Bring the required devices for connection(port connection etc.)",
@@ -148,10 +148,7 @@ const EventsData = [
             "5.	The presentation is limited to a max of 15 slides and a time of 10 mins.",
             "6.	Participants are required to upload their abstracts 5 days before the actual event."
         ],
-        grpLink:{
-            mode:"Whatsapp", 
-            link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
-        },
+       
         phone: [
             {
                 Name: "Yuvashree",
@@ -182,12 +179,16 @@ const EventsData = [
         quote: "Be a game changer, The world is already full of players",
         descrp: [`A Techon game is a type of abstract strategy game in which players attempt to complete a specific type of connection with the given picture pieces.It is a technical fun game which develops the interaction of all the members in the team.Techon is a game where you can get fame`],
 
-        addinfo: [``],
+        addinfo: [`Join the Whatsapp group after registration.`],
         rules: ["1.	Maximum of three members in a team",
             "2.	Bring your college ID and stationery  (mandatory)",
             "3.	Electronic gadgets are not allowed during the events",
             "4.	Be on time ",
             "5.	Don’t indulge in malpractice."],
+            grpLink:{
+                mode:"Whatsapp", 
+                link:"https://chat.whatsapp.com/GEzVFyY4kC7KGnLcHtGbMz"
+            },
         phone: [
             {
                 Name: "Mahalakshmi",
