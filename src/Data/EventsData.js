@@ -109,6 +109,10 @@ const EventsData = [
             "6.	Once you complete the task by assembling the components and if it has not started, you will not get a second chance."
 
         ],
+        grpLink:{
+            mode:"Whatsapp", 
+            link:"https://chat.whatsapp.com/BFHswWYWoFd6ZmAswymbxn"
+        },
         phone: [
             {
                 Name: "Elavarasan",
