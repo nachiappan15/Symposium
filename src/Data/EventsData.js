@@ -223,22 +223,9 @@ const EventsData = [
         route: "coding",
         quote: `Unleash the coder in you! To win, fix the program's bugs and work out
         the coding problems with your logics`,
-        descrp: [`There are 2 rounds in this competition. ten questions make up the first
-        round. There will be 5 coding problems and 5 debugging questions. The duration
-        of this round is one hour.Participants can highlight the lines and correct any errors
-        in the provided code for debugging questions with pen. Participants have to write
-        a code snippet for the given problem for coding questions.Round 1 participants
-        who have been shortlisted will advance to round 2.`,
-            `The second round will take
-                place at the department lab on the HackerEarth platform.Everyone should have
-                a HackerEarth ID to take part in Event. Participants can disable two-step
-                authentication during the event to make login easier. The second round will last
-                one hour. There will be 2 simple, 2 medium, and 1 difficult coding problem. Any
-                language available in the hackerearth IDE may be used by participants to solve
-                the coding problem. C, C++, Java, and Python-based questions will be used
-                during the first round. Participants who reach the top of HackerEarth leaderboard
-                will receive rewards. 
-                `],
+        descrp: [`There are 2 rounds in this competition. 4 questions make up the first round. There will be 1 coding problem and 3 debugging questions. The duration of this round is half an hour(30 mins). Both round will take place at the department’s Network lab on the HackerEarth platform. Everyone should have a HackerEarth ID to take part in Event. Participants can disable two-step authentication during the event to make login easier.  Participants will be asked to debug the given code snippet such that all desired test cases are passed. Participants have to write a code snippet for the given problem for the coding question .`,
+            `Round 1 participants who have been shortlisted will advance to round 2. The second round will last one hour. There will be 2 simple, 2 medium, and 1 difficult coding problem. Any language available in the hackerearth IDE may be used by participants to solve the coding problem. Participants who reach the top of HackerEarth leaderboard will receive rewards!!`
+        ],
 
         addinfo: [``],
         rules: ["1. Smart watches and mobile phones are not permitted to be used within the hall.",
