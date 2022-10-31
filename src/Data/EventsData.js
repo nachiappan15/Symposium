@@ -262,8 +262,8 @@ const EventsData = [
         Name: 'WORKSHOP',
         route: "workshop",
         quote: "Tell me and I forget, teach me and I may remember, involve me and I learn",
-        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming SCRUM master , Microsoft Sharepoint. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
-        addinfo: [`EVENTS DOMAIN:`, `Full stack Programming`, `SCRUM master`, `Microsoft Sharepoint`],
+        descrp: [`It is an event where each participant presents their knowledge in the workshop, learns from other participants, and has an impact on the result. The domains offered are Full stack Programming SCRUM master. Participants are allowed to participate in any one of the workshops and are requested to actively engage in the workshop.`],
+        addinfo: [`EVENTS DOMAIN:`, `Full stack Programming`, `SCRUM master`],
         phone: [
             {
                 Name: "Raj Kumar",
