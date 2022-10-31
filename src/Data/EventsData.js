@@ -63,7 +63,7 @@ const EventsData = [
             link: "https://t.me/+-mvxkRg2-31iMzI9"
         },
         prbstmt: "https://ozmenta-hackathon.netlify.app/",
-        addinfo: [``],
+        addinfo: [`Domains with Prize:: `, `1. Web Development -> ₹5,000 `, `2. AI & DS -> ₹5,000`, `3. Android Development -> ₹5,000`],
         rules: ["1.	2-4 members per team",
             "2.	Participants can choose any one from the given topic",
             "3.	A Time limit of 5 hours will be provided.",
@@ -224,8 +224,8 @@ const EventsData = [
         quote: `Unleash the coder in you! To win, fix the program's bugs and work out
         the coding problems with your logics`,
         descrp: [`There are 2 rounds in this competition. 4 questions make up the first round. There will be 1 coding problem and 3 debugging questions. The duration of this round is half an hour(30 mins). Both round will take place at the department’s Network lab on the HackerEarth platform. Everyone should have a HackerEarth ID to take part in Event. Participants can disable two-step authentication during the event to make login easier.  Participants will be asked to debug the given code snippet such that all desired test cases are passed. Participants have to write a code snippet for the given problem for the coding question .`,
-            `Round 1 participants who have been shortlisted will advance to round 2. The second round will last one hour. There will be 2 simple, 2 medium, and 1 difficult coding problem. Any language available in the hackerearth IDE may be used by participants to solve the coding problem. Participants who reach the top of HackerEarth leaderboard will receive rewards!!`
-        ],
+    `Round 1 participants who have been shortlisted will advance to round 2. The second round will last one hour. There will be 2 simple, 2 medium, and 1 difficult coding problem. Any language available in the hackerearth IDE may be used by participants to solve the coding problem. Participants who reach the top of HackerEarth leaderboard will receive rewards!!`
+    ],
 
         addinfo: [``],
         rules: ["1. Smart watches and mobile phones are not permitted to be used within the hall.",

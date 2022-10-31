@@ -43,7 +43,7 @@ const EventsAbout = () => {
 
         musicfest: musicfest,
         pcgaming: pcgaming,
-        mobilegaming:mobilegaming,
+        mobilegaming: mobilegaming,
         quizmovie: quizmovieimg,
         memetic: meme,
         quizanime: quizanime,
@@ -90,6 +90,7 @@ const EventsAbout = () => {
                         }
                     </div>
                 </div>
+                
 
                 {event.timing && <div className='lg:w-2/3 mx-auto flex items-center justify-center lg:items-start mt-4 flex-col p-2  relative  '>
                     <GlassBg />
@@ -100,6 +101,7 @@ const EventsAbout = () => {
 
                 </div>}
 
+                
                 {event.rules &&
                     <div className='lg:w-2/3 mx-auto flex items-center justify-center lg:items-start mt-4 flex-col p-2  relative  '>
                         <GlassBg />
@@ -110,9 +112,9 @@ const EventsAbout = () => {
 
                     </div>}
                 {
-                    event.grpLink && 
+                    event.grpLink &&
                     <a className='w-full flex items-center justify-center mt-2' href={event.grpLink.link} target={`_blank`}>  <button className="text-white bg-selected p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Join on {event.grpLink.mode} </button></a>
-                    
+
                 }
                 <div className='flex items-center justify-center mt-2'>
                     <Link to="/register"><button className="text-white bg-gray-900 p-2 lg:px-4 lg:py-2 rounded-md font-semibold hover:scale-110">Register Now</button></Link>

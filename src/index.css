@@ -7,6 +7,10 @@
   /* text-shadow: 4px 3px 5px rgba(44,182,125,0.77);  */
 }
 
+.grad_bg{
+  background: linear-gradient(90deg, rgba(44,182,125,1) 0%, rgba(127,90,240,1) 100%); 
+
+}
 /* timer */
 
 .grad__bg{
